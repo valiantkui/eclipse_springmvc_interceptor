@@ -1,4 +1,4 @@
-![image](/storage/emulated/0/zapya/photo/Screenshot_2018-03-13-15-40-26.png)  
+![image](Screenshot_2018-03-13-15-40-26.png)  
 ## 什么是拦截器
 spring提供一个特殊的组件，当dispatcherServlet收到请求之后，如果有拦截器，会先调用拦截器，然后调用相应的处理器(Controller).
 ##### 注意：
@@ -7,7 +7,7 @@ spring提供一个特殊的组件，当dispatcherServlet收到请求之后，如
 1. 写一个java类，实现HandlerInterceptor接口
 2. 实现具体的拦截处理逻辑，比如，session验证。
 3. 配置拦截器
-![image](/storage/emulated/0/电影/Screenshot_2018-03-13-16-42-27-1.png)  **注意：** 拦截器地址     1. /**表示拦截所有请求地址。     2. /*仅表示拦截该层的所有请求地址。 
+![image](Screenshot_2018-03-13-16-42-27-1.png)  **注意：** 拦截器地址     1. /**表示拦截所有请求地址。     2. /*仅表示拦截该层的所有请求地址。 
 ## 代码演示
 ```  
 import javax.servlet.http.HttpServletRequest;  
